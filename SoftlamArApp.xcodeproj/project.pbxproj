@@ -13,6 +13,17 @@
 		F1EDED1029BF546400486EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED0E29BF546400486EEA /* Main.storyboard */; };
 		F1EDED1229BF546600486EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED1129BF546600486EEA /* Assets.xcassets */; };
 		F1EDED1529BF546600486EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED1329BF546600486EEA /* LaunchScreen.storyboard */; };
+		F1EDED2529BF6E1000486EEA /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED1D29BF6E0C00486EEA /* 03.usdz */; };
+		F1EDED2629BF6E1000486EEA /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED1E29BF6E0D00486EEA /* 07.usdz */; };
+		F1EDED2729BF6E1000486EEA /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED1F29BF6E0E00486EEA /* 08.usdz */; };
+		F1EDED2829BF6E1000486EEA /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED2029BF6E0E00486EEA /* 01.usdz */; };
+		F1EDED2A29BF6E1000486EEA /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED2229BF6E1000486EEA /* 02.usdz */; };
+		F1EDED3029BF750900486EEA /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED2D29BF750900486EEA /* 04.usdz */; };
+		F1EDED3229BF75A800486EEA /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED3129BF75A800486EEA /* 05.usdz */; };
+		F1EDED3429BF762400486EEA /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED3329BF762400486EEA /* 06.usdz */; };
+		F1EDED3629C080C700486EEA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED3529C080C700486EEA /* bg.png */; };
+		F1EDED3829C0839900486EEA /* fp-game.png in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED3729C0839900486EEA /* fp-game.png */; };
+		F1EDED3C29C0849600486EEA /* fp-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F1EDED3B29C0849600486EEA /* fp-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +34,17 @@
 		F1EDED0F29BF546400486EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1EDED1129BF546600486EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1EDED1429BF546600486EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1EDED1D29BF6E0C00486EEA /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 03.usdz; sourceTree = "<group>"; };
+		F1EDED1E29BF6E0D00486EEA /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
+		F1EDED1F29BF6E0E00486EEA /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
+		F1EDED2029BF6E0E00486EEA /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
+		F1EDED2229BF6E1000486EEA /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 02.usdz; sourceTree = "<group>"; };
+		F1EDED2D29BF750900486EEA /* 04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 04.usdz; sourceTree = "<group>"; };
+		F1EDED3129BF75A800486EEA /* 05.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 05.usdz; path = ../../../../Downloads/05.usdz; sourceTree = "<group>"; };
+		F1EDED3329BF762400486EEA /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 06.usdz; sourceTree = "<group>"; };
+		F1EDED3529C080C700486EEA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		F1EDED3729C0839900486EEA /* fp-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fp-game.png"; sourceTree = "<group>"; };
+		F1EDED3B29C0849600486EEA /* fp-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fp-button.png"; path = "../../../../Desktop/fp-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,17 @@
 		F1EDED0729BF546400486EEA /* SoftlamArApp */ = {
 			isa = PBXGroup;
 			children = (
+				F1EDED3729C0839900486EEA /* fp-game.png */,
+				F1EDED3529C080C700486EEA /* bg.png */,
+				F1EDED3B29C0849600486EEA /* fp-button.png */,
+				F1EDED2D29BF750900486EEA /* 04.usdz */,
+				F1EDED3329BF762400486EEA /* 06.usdz */,
+				F1EDED3129BF75A800486EEA /* 05.usdz */,
+				F1EDED2029BF6E0E00486EEA /* 01.usdz */,
+				F1EDED2229BF6E1000486EEA /* 02.usdz */,
+				F1EDED1D29BF6E0C00486EEA /* 03.usdz */,
+				F1EDED1E29BF6E0D00486EEA /* 07.usdz */,
+				F1EDED1F29BF6E0E00486EEA /* 08.usdz */,
 				F1EDED0829BF546400486EEA /* AppDelegate.swift */,
 				F1EDED0A29BF546400486EEA /* ViewController.swift */,
 				F1EDED0C29BF546400486EEA /* Experience.rcproject */,
@@ -123,8 +156,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EDED2529BF6E1000486EEA /* 03.usdz in Resources */,
+				F1EDED3429BF762400486EEA /* 06.usdz in Resources */,
+				F1EDED3629C080C700486EEA /* bg.png in Resources */,
+				F1EDED3C29C0849600486EEA /* fp-button.png in Resources */,
 				F1EDED1529BF546600486EEA /* LaunchScreen.storyboard in Resources */,
+				F1EDED2A29BF6E1000486EEA /* 02.usdz in Resources */,
+				F1EDED3229BF75A800486EEA /* 05.usdz in Resources */,
+				F1EDED2629BF6E1000486EEA /* 07.usdz in Resources */,
+				F1EDED3829C0839900486EEA /* fp-game.png in Resources */,
+				F1EDED2729BF6E1000486EEA /* 08.usdz in Resources */,
 				F1EDED1229BF546600486EEA /* Assets.xcassets in Resources */,
+				F1EDED3029BF750900486EEA /* 04.usdz in Resources */,
+				F1EDED2829BF6E1000486EEA /* 01.usdz in Resources */,
 				F1EDED1029BF546400486EEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
