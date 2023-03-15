@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     
+    var count = 0
+    
+    var tapCard1: Entity? = nil
+    var tapCard2: Entity? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         /**
@@ -108,6 +113,12 @@ class ViewController: UIViewController {
         
     }
     
+    func returnSelectedCards() {
+        if count == 2 {
+            
+        }
+    }
+    
     /** Action on tap */
     @IBAction func onTap(_ sender: UITapGestureRecognizer) {
         let tapLocation = sender.location(in: arView)
@@ -117,11 +128,14 @@ class ViewController: UIViewController {
                 var flipDownTransform = card.transform
                 flipDownTransform.rotation = simd_quatf(angle: 0, axis: [1, 0, 0])
                 card.move(to: flipDownTransform, relativeTo: card.parent, duration: 0.5, timingFunction: .easeInOut)
-    
+                count+=1
+                print(count)
             } else {
                 var flipUpTransform = card.transform
                 flipUpTransform.rotation = simd_quatf(angle: .pi, axis: [1, 0, 0])
                 card.move(to: flipUpTransform, relativeTo: card.parent, duration: 0.5, timingFunction: .easeInOut)
+                count-=1
+                print(count)
             }
         }
     }
